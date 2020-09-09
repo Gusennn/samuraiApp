@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+.AppMainBox {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: blue;
+}
+.noHeaderBox {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  background: purple;
+  width: 15%;
+}
+.contentBox {
+  background: gold;
+  width: 85%;
+}
+.contentBox img {
+  width: 100%;
+  overflow: hidden;
+}
